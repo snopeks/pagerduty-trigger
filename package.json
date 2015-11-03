@@ -4,8 +4,12 @@
   "description": "trigger a pagerduty alert",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec test.js"
   },
   "author": "Stephanie Snopek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "must": "^0.13.1"
+  }
 }

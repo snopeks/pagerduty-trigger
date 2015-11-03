@@ -2,6 +2,13 @@ var os = require('os');
 var request = require('request');
 
 function triggerAlert(event, callback) {
+  if (!process.env.PAGER_DUTY_SERVICE) {
+    callback(new Error("Do not have environment variable PAGER_DUTY_SERVICE"))
+    return
+  }
+
+
+
   var payload = {
     'event_type': 'trigger',
     'client': os.hostname(),
@@ -49,8 +56,8 @@ function triggerAlert(event, callback) {
   })
 };
 
-
-
+//node convention: check to see if something's wrong at the beginning, and if you don't have the required info then bail with error
+//assert function:
 //Need to get service_key from the env var!!!
 //need to send payload to pagerduty
 //handle response from pagerduty
