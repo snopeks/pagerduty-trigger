@@ -1,0 +1,11 @@
+{
+  "name": "pagerduty",
+  "version": "1.0.0",
+  "description": "trigger a pagerduty alert",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephanie Snopek",
+  "license": "ISC"
+}
