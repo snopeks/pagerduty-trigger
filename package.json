@@ -11,5 +11,8 @@
   "devDependencies": {
     "mocha": "^2.3.3",
     "must": "^0.13.1"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
   }
 }
