@@ -1,6 +1,6 @@
 {
   "name": "pagerduty-trigger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "trigger a pagerduty alert",
   "main": "main.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url" : "https://github.com/snopeks/pagerduty-trigger.git"
-    },
+    "url": "https://github.com/snopeks/pagerduty-trigger.git"
+  },
   "author": "Stephanie Snopek",
-  "email" : "stephanie@npmjs.com",
+  "email": "stephanie@npmjs.com",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^2.3.3",
