@@ -6,9 +6,12 @@
   "scripts": {
     "test": "mocha -R spec test.js"
   },
-  "url" : "https://github.com/snopeks/pagerduty-trigger.git",
-  "email" : "stephanie@npmjs.com",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/snopeks/pagerduty-trigger.git",
+    },
   "author": "Stephanie Snopek",
+  "email" : "stephanie@npmjs.com",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^2.3.3",
