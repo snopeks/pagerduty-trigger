@@ -4,7 +4,7 @@ var trigger = require('./main'),
 	chalk   = require('chalk');
 
 if (process.argv.length < 3) {
-	console.error(chalk.red('USAGE: ./trigger.js "your alert text here"'));
+	console.error(chalk.red('USAGE: pd-trigger "your alert text here"'));
 	process.exit(1);
 }
 
