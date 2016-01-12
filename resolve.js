@@ -4,7 +4,7 @@ var resolve = require('./main').resolve,
 	chalk   = require('chalk');
 
 if (process.argv.length < 3) {
-	console.error(chalk.red('USAGE: ./trigger.js alert-id'));
+	console.error(chalk.red('USAGE: pd-resolve alert-id'));
 	process.exit(1);
 }
 
