@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Stephanie Snopek",
   "bin": {
-    "pd-trigger": "trigger.js"
+    "pd-trigger": "trigger.js",
+    "pd-resolve": "resolve.js"
   },
   "bugs": {
     "url": "https://github.com/snopeks/pagerduty-trigger/issues"
@@ -15,7 +16,8 @@
   },
   "devDependencies": {
     "mocha": "^2.3.3",
-    "must": "^0.13.1"
+    "must": "^0.13.1",
+    "nyc": "~5.3.0"
   },
   "email": "stephanie@npmjs.com",
   "homepage": "https://github.com/snopeks/pagerduty-trigger#readme",
@@ -29,6 +31,6 @@
     "url": "git+https://github.com/snopeks/pagerduty-trigger.git"
   },
   "scripts": {
-    "test": "mocha -R spec test.js"
+    "test": "nyc mocha -R spec test.js"
   }
 }
